@@ -1,0 +1,50 @@
+/*==============================
+Codecademy Review
+Name: Mitchell Moritz
+Project: Dasmoto's Arts & Crafts
+File: Dasmoto's CSS Stylesheet
+Date: 8/23/2017
+===============================*/
+
+/*====== General Styles =======*/
+
+body {
+	font-family: Helvetica;
+}
+
+/*====== Header Styles ======*/
+
+#header {
+	background-image: url('../img/patterncrop.jpg'); /*original image was cropped to a smaller size to improve load times.*/
+}
+#header h1 {
+	font-size: 100px;
+	font-weight: bold;
+	color: khaki;
+	text-align: center;
+}
+
+/*====== Section Styles ======*/
+
+.section h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+}
+#brushes h2 {
+	background-color: mediumspringgreen;
+}
+
+#frames h2 {
+	background-color: lightcoral;
+}
+
+#paint h2 {
+	background-color: skyblue;
+}
+
+span.price {
+	font-weight: bold;
+	font-style: italic;
+	color: blue;
+}
